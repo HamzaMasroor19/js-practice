@@ -91,5 +91,79 @@ console.log(name);
 //     console.log("NO");
 // }
 // console.log(user); 
+// let name = "Hamza";
+// let country ="Pakistan";
+// let age = 19;
+// console.log("I am "+ name +" from " + country +" and i am "+ age +" year old" );
+
+// let str = "Hamza"; 
+// let Num = 19;
+// let bo = false; 
+// let bit = BigInt(123424561651821813); 
+// let undef;
+// let nul = null;
+// console.log(
+//   typeof str, 
+//   typeof Num, 
+//   typeof bo, 
+//   typeof bit, 
+//   typeof undef, 
+//   typeof nul
+// );
+
+// let age = Number(prompt("Enter the number"));
+// console.log(isNaN(age) ? "Invaild Enter Number":age >=18 ? "Adult":"Minor" )
+// let name = prompt("Enter your name");
+// let age = Number(prompt("Enter your age"));
+// let place = prompt("Enter your country");
+
+// // Validate age
+
+// if (isNaN(age)) {
+//   console.log("Invalid age input!");
+// } else {
+//   if (place.toLowerCase() === "pakistan" && age >= 18) {
+//     console.log(`Hello ${name}, you are an Adult Pakistani!`);
+//   } else if (place.toLowerCase() === "pakistan" && age < 18) {
+//     console.log(`Hello ${name}, you are a Minor in Pakistan`);
+//   } else {
+//     console.log(`Hello ${name}, you are from ${place}`);
+//   }
+// }
+// let name = "Hamza";
+// let student = true;
+// let age = 19;
+// console.log(`My name is ${name} and i am ${age} year old and Student :${student}`);
+// let a = 12;
+// let b = 5;
+// console.log("a+b=",a+b);
+// console.log("a-b=",a-b);
+// console.log("a/b=",a/b);
+// console.log("a*b=",a*b);
+// console.log("a%b=",a%b);
+// console.log("a**b=",a**b);
+let num = 20;
+num += 10;
+console.log(num)
+num -= 5;
+console.log(num)
+num *= 2;
+console.log(num)
+num /= 5;
+console.log(num)
+// let text = "      javascript    ";
+// console.log(text.trim().length);
+// let str = "I love coding in JavaScript";
+// console.log(str.toUpperCase())
+// console.log(str.includes("love"))
+// console.log(str.replace("JavaScript","JS"));
+// let word = "PROGRAMMING";
+// console.log("7 letter =",word.slice(7,8))
+// console.log("letter =",word.substring(3,7))
+// let fruits = "apple,banana,grape,mango";
+// console.log(fruits.split(","));  
+
+// console.log(fruits.split(",").join(" - "));  
+
 
 
