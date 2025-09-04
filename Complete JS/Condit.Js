@@ -51,3 +51,36 @@ switch (weather) {
     default:
         console.log("Enjoy your day!");
 }
+// let mode ="brown"
+// let color;
+// if(mode==="dark"){
+//     color="black";
+// }else if(mode==="blus"){
+//     color="blue";
+// }else if(mode==="light"){
+//     color="white";
+// }else{
+//     color="yellow";
+// }
+// console.log(color)
+// let mode ="dark";
+// let color;
+// if (mode==="dark"){
+//     color="green";
+// }else{
+//     color="blue";
+// }
+console.log(color)
+let mode = "dark"
+let color;
+if(mode==="dark"){
+    color="black";
+}
+if(mode==="light"){
+    color="white";
+}
+if(mode==="blue"){
+    color="blue";
+}
+console.log(color)
+
