@@ -46,4 +46,43 @@
 const sayBismillah = ()=>{
    return  console.log("Bismillah-ir-Rahman-ir-Raheem");
 }
+
 sayBismillah();
+// function Processingdata(data){
+// console.log("process... "+ data)
+// };
+// function deletedata(data){
+// console.log("delete... "+ data)
+// };
+// function Updatedata(data){
+// console.log("update... "+ data)
+// };
+// function Insertdata(data){
+// console.log("insert... "+ data)
+// };
+// // Insertdata("Ali")
+// function run(callback){
+//     callback("Hamza")
+// }
+// run(Insertdata)
+
+// // CALLBACK HELL;
+function getData(dataId, nextdata) {
+    setTimeout(
+        () => {
+            console.log("Data is" + dataId);
+            nextdata();
+        } ,3000
+    );
+
+
+};
+getData(1, () => {
+    getData(2, () => {
+        getData(3, () => {
+            getData(4, () => {
+            
+            })
+        })
+    })
+});
