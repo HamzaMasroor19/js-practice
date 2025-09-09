@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="heading">
+        Hi hamza
+    </h2>
+    <script src="DOM.js"></script>
+</body>
+</html> -->
+<style>
+.bigText {
+  font-size: 40px;
+  color: blue;
+}
+</style>
+
+<h1 id="title">Hello Hamza</h1>
+<button onclick="makeBig()">Make Big</button>
+<button onclick="removeBig()">Remove Big</button>
+<button onclick="toggleBig()">Toggle Big</button>
+
+<script>
+let heading = document.getElementById("title");
+
+function makeBig() {
+  heading.classList.add("bigText");      // applies CSS class
+}
+
+function removeBig() {
+  heading.classList.remove("bigText");   // removes CSS class
+}
+
+function toggleBig() {
+  heading.classList.toggle("bigText");   // adds if missing, removes if already applied
+}
+</script>
