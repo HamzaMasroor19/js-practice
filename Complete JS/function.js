@@ -48,41 +48,82 @@ const sayBismillah = ()=>{
 }
 
 sayBismillah();
-// function Processingdata(data){
-// console.log("process... "+ data)
-// };
-// function deletedata(data){
-// console.log("delete... "+ data)
-// };
-// function Updatedata(data){
-// console.log("update... "+ data)
-// };
-// function Insertdata(data){
-// console.log("insert... "+ data)
-// };
-// // Insertdata("Ali")
-// function run(callback){
-//     callback("Hamza")
+//Q!
+// function sayHi(name){
+// console.log("Hi " + name);
 // }
-// run(Insertdata)
-
-// // CALLBACK HELL;
-function getData(dataId, nextdata) {
-    setTimeout(
-        () => {
-            console.log("Data is" + dataId);
-            nextdata();
-        } ,3000
-    );
-
-
+// sayHi("Hamza")
+// sayHi("Ali")
+//Q2
+// function Sq(a){
+//     console.log(a * a)
+// }
+// Sq(5);
+// Sq(9);
+//Q3
+// function calculate(a , b ,operate){
+//     if(operate ==="add"){
+//         console.log("a + b =", a + b)
+//     }else if(operate ==="multiply")
+//     {
+//         console.log("a x b =", a * b)
+//     }else{
+ //   }
+// }
+// calculate(2,3,"add")
+//Q4
+// function num(a , b){
+//     if(a > b){
+//         console.log(a)
+//     }else{
+//         console.log(b)
+//     }
+// }
+// num(5,9)
+// num(11,111)
+//Arrow Function
+// const hello = (name) => "Hello "+ name;
+// console.log(hello("Hamza"));
+//Q1
+const double= (num) => {
+    return num + num ;
 };
-getData(1, () => {
-    getData(2, () => {
-        getData(3, () => {
-            getData(4, () => {
-            
-            })
-        })
-    })
-});
+console.log(double(5))
+//Q2
+const greet =(name) =>{
+return "Hello "+ name;
+}
+console.log(greet("hamza"))
+//Q3
+const maxnum =(a , b) =>{
+if(a>b){
+    console.log("a is bigger =",a )
+}else{
+    console.log("b is bigger =",b)
+}
+return ;
+};
+console.log(maxnum(22,9));
+//Q4
+const sumarray=(arr) =>{
+   let sum =0;
+for(let i = 0;i < arr.length;i++){
+sum = arr[i] + sum;
+}
+return sum;
+
+}
+console.log(sumarray([1,2,3,4,5,6,7,8,8]))
+//Q5
+const iseven= (even)=>{
+
+    if(even % 2===0){
+        return true
+        // console.log("even")
+    }else{
+        return false
+        // console.log("odd")
+    }
+
+}
+console.log(iseven(3))
