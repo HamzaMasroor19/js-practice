@@ -1,2 +1,2 @@
 # js-practice
-My JavaScript practice covering basic JS
+Covering basic JS
