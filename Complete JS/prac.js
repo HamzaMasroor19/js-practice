@@ -3,6 +3,9 @@
 // a = 25; 
 // console.log(a);
 // Q1..2
+//let name= "hamza";
+//name = "ali";
+//console.log(name);
 let name= "hamza";
 name = "ali";
 console.log(name);
@@ -164,6 +167,7 @@ console.log(num)
 // console.log(fruits.split(","));  
 
 // console.log(fruits.split(",").join(" - "));  
+
 
 
 
