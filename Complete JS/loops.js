@@ -52,6 +52,13 @@ for(let i = 1;i <=n;i++){
 multi *=i;
 }
 console.log(multi);
+let sum = 1;
+let n = prompt("Enter your num");
+
+for(let i = 1;i <=n;i++){
+sum *=i;
+}
+console.log(sum);
 //WHILE LOOP
 //Q6
 // let i = 10;
@@ -146,5 +153,6 @@ console.log(multi);
 // for(let i =5;i>=1;i--){
 //     console.log(i)
 // }
+
 
 
