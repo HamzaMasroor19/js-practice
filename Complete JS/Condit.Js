@@ -11,7 +11,15 @@
 // } else {
     //     console.log("You are not a student.");
     // }
-    
+
+let prices = 2200;
+if(prices>=500){
+    console.log("20% Discount")
+}else if(prices>=200){
+console.log("10%discount")
+}else{
+    console.log("Denied")
+};
         // let marks = 75;
         // if (marks >= 80) {
     //     console.log("Grade: A");
@@ -112,4 +120,5 @@ if(price>=500){
 console.log("10%discount")
 }else{
     console.log("Denied")
-}s
+};
+
