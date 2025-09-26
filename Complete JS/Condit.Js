@@ -121,4 +121,20 @@ console.log("10%discount")
 }else{
     console.log("Denied")
 };
+//Q10
+    // let weather = "rainy";
+// switch (weather) {
+    //     case "sunny":
+    //         console.log("Wear sunglasses.");
+//         break;
+//     case "rainy":
+//         console.log("Take an umbrella.");
+//         break;
+//     case "cold":
+//         console.log("Wear a jacket.");
+//         break;
+//     default:
+//         console.log("Enjoy your day!");
+// }
+
 
