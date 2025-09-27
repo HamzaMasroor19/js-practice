@@ -79,8 +79,13 @@ sayBismillah();
 //         console.log(b)
 //     }
 // }
+
 // num(5,9)
 // num(11,111)
+// function greet(name){
+// console.log("Ahmed and "+name);
+// }
+// greet("Ali");
 //Arrow Function
 // const hello = (name) => "Hello "+ name;
 // console.log(hello("Hamza"));
@@ -127,3 +132,4 @@ const iseven= (even)=>{
 
 }
 console.log(iseven(3))
+
