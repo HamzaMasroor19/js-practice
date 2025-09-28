@@ -154,6 +154,8 @@ num *= 2;
 console.log(num)
 num /= 5;
 console.log(num)
+num =num + 5 * 5;
+console.log(num)
 // let text = "      javascript    ";
 // console.log(text.trim().length);
 // let str = "I love coding in JavaScript";
@@ -167,6 +169,7 @@ console.log(num)
 // console.log(fruits.split(","));  
 
 // console.log(fruits.split(",").join(" - "));  
+
 
 
 
