@@ -40,6 +40,9 @@ console.log(name);
 // }else{
 //     console.log("user is not sign in");
 // }
+// let name= "hamza";
+// name = "ali";
+// console.log(name);
 // let isloggedIn = true;
 // let isAdmin = false;
 
@@ -169,6 +172,7 @@ console.log(num)
 // console.log(fruits.split(","));  
 
 // console.log(fruits.split(",").join(" - "));  
+
 
 
 
