@@ -1,8 +1,8 @@
-let marks =[98,23,32,45,64];
-// console.log(marks)
-for(let i =0;i <=marks.length;i++){
-    console.log(marks[i])
-}
+// let marks =[98,23,32,45,64];
+// // console.log(marks)
+// for(let i =0;i <=marks.length;i++){
+//     console.log(marks[i])
+// }
 //T1 
 //let num =[1 ,2 ,3 ,4 ,5];
 // console.log(num[0])
@@ -70,6 +70,11 @@ for(let i =0;i<num.length;i++){
 // }else{
 //     console.log("DENIED");
 // }
+let marks =[98,23,32,45,64];
+// console.log(marks)
+for(let i =0;i <=marks.length;i++){
+    console.log(marks[i])
+}
 let accounts = [
   {username:"hamza", password:"1234"},
   {username:"ali", password:"abcd"},
@@ -81,4 +86,5 @@ let password = prompt("Enter your password")
  if(found){
     console.log(`Welcome ${username}`)
  }
+
 
