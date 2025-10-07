@@ -24,6 +24,14 @@ for(let i =0;i<num.length;i++){
         console.log(`even num: ${num[i]}`)
     }
 }
+//T4 2
+let num =[2,3,4,5,6,7,8,9,10]
+for(let i =0;i<num.length;i++){
+    console.log(num[i])
+    if(num[i] % 3===0){
+        console.log(`even num: ${num[i]}`)
+    }
+}
 //t5
 // let city =["Karachi","Quetta","KPK"];
 // city.unshift("Lahore");
@@ -86,5 +94,6 @@ let password = prompt("Enter your password")
  if(found){
     console.log(`Welcome ${username}`)
  }
+
 
 
