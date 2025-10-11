@@ -31,6 +31,7 @@ console.log(name);
 // console.log("a / b = ",a / b);
 // console.log("a % b = ",a % b);
 // console.log("a ** b = ",a ** b);
+//let a =2;
 // Q3..2
 // let isloggedIn = true;
 // let isAdmin = false;
@@ -172,6 +173,7 @@ console.log(num)
 // console.log(fruits.split(","));  
 
 // console.log(fruits.split(",").join(" - "));  
+
 
 
 
