@@ -7,6 +7,27 @@
 //   .then(data => {
 //     console.log(data[0].name); 
 //   })
+// fetch('https://api.example.com/data')
+//   .then(response => response.json())
+//   .then(data => console.log(data))
+//   .catch(error => console.error('Error:', error));
+
+
+// For a POST request:
+
+
+// fetch('https://api.example.com/data', {
+//   method: 'POST',
+//   headers: {
+//     'Content-Type': 'application/json'
+//   },
+//   body: JSON.stringify({
+//     key: 'value'
+//   })
+// })
+//   .then(response => response.json())
+//   .then(data => console.log(data))
+//   .catch(error => console.error('Error:', error));
 //Q1
 // fetch("https://jsonplaceholder.typicode.com/posts")
 // .then((res)=> {return (res.json())})
@@ -45,4 +66,5 @@ fetch("https://jsonplaceholder.typicode.com/posts",{
     })
 })
 .then((res)=>{return res.json()})
+
 .then((data)=>console.log(data))
