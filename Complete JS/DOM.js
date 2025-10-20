@@ -23,3 +23,18 @@ minus.onclick=function(){
     h2.innerHTML =count
 }
 console.log(h1)
+const title = document.querySelector("#title");
+const btn = document.querySelector("#btn");
+
+btn.addEventListener("click", () => {
+  title.classList.toggle("active");
+  if (title.classList.contains("active")) {
+    title.textContent = "Welcome, Hamza!";
+    title.style.color = "green";
+  } else {
+    title.textContent = "Hello World";
+    title.style.color = "black";
+  }
+});
+
+
