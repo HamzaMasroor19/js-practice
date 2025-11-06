@@ -36,5 +36,13 @@ btn.addEventListener("click", () => {
     title.style.color = "black";
   }
 });
+    let heading = document.getElementById("heading");
+    let button = document.getElementById("btn");
+
+
+    button.addEventListener("click", function() {
+      heading.textContent = "Text Changed!";
+    });
+
 
 
